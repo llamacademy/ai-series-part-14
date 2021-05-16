@@ -1,7 +1,7 @@
 # Navmesh AI Tutorial 14 - Procedural NavMesh Generation at Runtime Part 2
 The below video is the tutorial that **ENDS** where this project is. In the tutorial I review how to construct pieces of level so feel free to follow along with this project.
 
-[![Youtube Tutorial](./Video%20Screenshot.png)](https://youtu.be/hC27myJAmM4&ref=github)
+[![Youtube Tutorial](./Video%20Screenshot.png)](https://www.youtube.com/watch?v=RuoK7w1OIT0)
 
 
 ## Patreon Supporters
@@ -21,25 +21,26 @@ Head over to https://patreon.com/llamacademy to show your support.
 In this project we have 3 Scenes:
 
 SampleScene:
-1. Simple click to move.
-2. An enemy that follows the player
-3. NavMeshLinks to allow the player and enemy to jump from one platform to another, and on top of some walls.
-4. AgentLinkMover to control how NavMeshAgents will traverse NavMeshLinks
-5. Animated 3D Model based on NavMeshAgent's movement
-6. Dynamically spawned enemies at random points on the NavMesh
-7. 4 Enemy types, configured via a ScriptableObject, that path differently based on Agent Configuration
-8. Enemies and Player attack the other when they near each other, until dead.
-9. Ranged Attacking Enemies
-10. Configurable Homing Bullet Mechanics for Ranged Enemies
-11. Improved ScriptableObject Configurations
-12. Flying Enemies
-13. State Machine AI with 3 options - idle, patrol, chase, including line of sight checking
+1. Simple click to move. - [AI Series Part 1](https://www.youtube.com/watch?v=aHFSDcEQuzQ)
+2. An enemy that follows the player [AI Series Part 1](https://www.youtube.com/watch?v=aHFSDcEQuzQ)
+3. NavMeshLinks to allow the player and enemy to jump from one platform to another, and on top of some walls. [AI Series Part 2](https://www.youtube.com/watch?v=dpJUc_BpChw)
+4. AgentLinkMover to control how NavMeshAgents will traverse NavMeshLinks [AI Series Part 2](https://www.youtube.com/watch?v=dpJUc_BpChw)
+5. Animated 3D Model based on NavMeshAgent's movement [AI Series Part 3](https://www.youtube.com/watch?v=wLZPM46zgUo)
+6. Dynamically spawned enemies at random points on the NavMesh [AI Series Part 4](https://www.youtube.com/watch?v=5uO0dXYbL-s)
+7. 4 Enemy types, configured via a ScriptableObject, that path differently based on Agent Configuration [AI Series Part 5](https://www.youtube.com/watch?v=PoglGJoDcZg)
+8. Enemies and Player attack the other when they near each other, until dead. [AI Series Part 6](https://www.youtube.com/watch?v=Aee01YxQIsw)
+9. Ranged Attacking Enemies [AI Series Part 7](https://www.youtube.com/watch?v=QzitQSLhfG0) and [Part 8](https://www.youtube.com/watch?v=Aee01YxQIsw)
+10. Configurable Homing Bullet Mechanics for Ranged Enemies [AI Series Part 7](https://www.youtube.com/watch?v=QzitQSLhfG0) and [Part 8](https://www.youtube.com/watch?v=Aee01YxQIsw)
+11. Improved ScriptableObject Configurations [AI Series Part 9](https://www.youtube.com/watch?v=lRdetRvi8FA)
+12. Flying Enemies [AI Series Part 10](https://www.youtube.com/watch?v=cN837GYgxUI)
+13. State Machine AI with 3 options - idle, patrol, chase, including line of sight checking [AI Series Part 11](https://www.youtube.com/watch?v=3hXkdARwREo)
 
-Progressive NavMesh
-1. A Player-only scene with a procedurally generated world and NavMesh so it can be navigated by a NavMeshAgent
+Progressive NavMesh: [AI Series Part 13](https://www.youtube.com/watch?v=QPv_V4TCi8o)
+1. A procedurally generated world and NavMesh so it can be navigated by NavMeshAgents
+2. Enemies spawn as the player runs throughout the world, becoming disabled when they are too far away from the player.
 
-Bake NavMesh in Bounds
-1. A Player-only scene baking a NavMesh around the player as they move.
+Bake NavMesh in Bounds: [AI Series Part 14](https://www.youtube.com/watch?v=RuoK7w1OIT0)
+1. A Player-only scene baking a NavMesh around the player as they move
 
 ## Requirements
 * Requires Unity 2019.4 LTS or higher. 
